@@ -14,7 +14,10 @@ Senior iOS engineer with 6+ years of experience in building and scaling mobile a
 
 ## Skills
 
-- **Languages:** **Swift**, Objective-C, Clojure, JavaScript, TypeScript, Kotlin
+- **Languages**
+  - **Expert:** Swift
+  - **Production Experience:** Objective-C, Kotlin, TypeScript
+  - **Used in Side Projects:** Clojure, JavaScript
 - **Mobile:** UIKit, SwiftUI, Combine, Vapor
 - **Tools:** Xcode, Git, Fastlane, Firebase, VSCode, CI/CD, DataDog
 - **Other:** REST, WebSockets, Unit/UI Testing, SQL, Redis, MongoDB, Grafana, InfluxDB
