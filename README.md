@@ -57,10 +57,10 @@ Moscow · Mar 2018 – Sep 2018
 
 ## Personal Projects
 
-- [Transfer Music](https://apps.apple.com/ge/app/transfer-music/id1471038000) — Music transfer tool between platforms  
-- [Challenge Tracker](https://apps.apple.com/ge/app/challenge-tracker/id1512730729) — Personal habit and goal tracker  
-- [Made Fire](https://apps.apple.com/ge/app/made-fire/id1496499808) — Relaxation and fireplace visuals  
-- [UniCount Calculator](https://apps.apple.com/ge/app/unicount-scientific-calculator/id1034143766) — Scientific calculator with unique UX
+- [Transfer Music](https://apps.apple.com/app/transfer-music/id1471038000) — Music transfer tool between platforms  
+- [Challenge Tracker](https://apps.apple.com/app/challenge-tracker/id1512730729) — Personal habit and goal tracker  
+- [Made Fire](https://apps.apple.com/app/made-fire/id1496499808) — Relaxation and fireplace visuals  
+- [UniCount Calculator](https://apps.apple.com/app/unicount-scientific-calculator/id1034143766) — Scientific calculator with unique UX
 
 ---
 
