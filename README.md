@@ -1,3 +1,4 @@
+
 # Daniil Voidilov
 
 **Senior iOS Developer**  
@@ -13,10 +14,10 @@ Senior iOS engineer with 6+ years of experience in building and scaling mobile a
 
 ## Skills
 
-- **Languages:** Swift, Objective-C, C++, JavaScript, TypeScript
-- **Mobile:** UIKit, SwiftUI, Combine, Vapor, OpenAPI
-- **Tools:** Xcode, Git, Fastlane, Firebase, CI/CD
-- **Other:** REST, WebSockets, Unit/UI Testing, Clean Architecture
+- **Languages:** Swift, Objective-C, Clojure, JavaScript, TypeScript
+- **Mobile:** UIKit, SwiftUI, Combine, Vapor
+- **Tools:** Xcode, Git, Fastlane, Firebase, VSCode, CI/CD, DataDog
+- **Other:** REST, WebSockets, Unit/UI Testing, SQL, Redis, MongoDB, Grafana, InfluxDB
 
 ---
 
@@ -24,9 +25,11 @@ Senior iOS engineer with 6+ years of experience in building and scaling mobile a
 
 **Tabby** – *Senior iOS Developer*  
 Dubai, UAE (Remote) · May 2022 – Present  
-- Developed and maintained core app modules used by millions of users in the MENA region  
-- Integrated custom payment workflows and analytics  
+- Developed and maintained core app modules used by millions of users in the MENA region
+- Developed and maintained design system
+- Integrated custom payment workflows and analytics
 - Contributed to architecture improvements and modularization
+- [Tabby on App Store](https://apps.apple.com/ge/app/tabby-shop-now-pay-later/id1528022364)
 
 **Copper.co** – *iOS Developer*  
 Moscow · Aug 2020 – Jun 2021  
@@ -49,6 +52,15 @@ Moscow · Mar 2018 – Sep 2018
 
 ---
 
+## Personal Projects
+
+- [Transfer Music](https://apps.apple.com/ge/app/transfer-music/id1471038000) — Music transfer tool between platforms  
+- [Challenge Tracker](https://apps.apple.com/ge/app/challenge-tracker/id1512730729) — Personal habit and goal tracker  
+- [Made Fire](https://apps.apple.com/ge/app/made-fire/id1496499808) — Relaxation and fireplace visuals  
+- [UniCount Calculator](https://apps.apple.com/ge/app/unicount-scientific-calculator/id1034143766) — Scientific calculator with unique UX
+
+---
+
 ## Education
 
 **Bauman Moscow State Technical University**  
@@ -58,18 +70,18 @@ BEng & MEng, Control Systems Engineering · 2013–2019
 
 ## Open Source Projects
 
-- **[VDFlow](https://github.com/dankinsoid/VDFlow)** — Declarative flow coordinator for iOS apps  
-- **[VDAnimation](https://github.com/dankinsoid/VDAnimation)** — Lightweight declarative animation system  
 - **[swift-api-client](https://github.com/dankinsoid/swift-api-client)** — Modular API client toolkit for Swift  
 - **[VaporToOpenAPI](https://github.com/dankinsoid/VaporToOpenAPI)** — OpenAPI spec generator for Swift Vapor
+- **[VDAnimation](https://github.com/dankinsoid/VDAnimation)** — Lightweight declarative animation system  
+- **[VDFlow](https://github.com/dankinsoid/VDFlow)** — Declarative flow coordinator for iOS apps  
 
 ---
 
 ## Publications
 
-- [VDFlow: Declarative Navigation in Swift](https://medium.com/@voidilov/...)  
-- [Making Reusable Animations with VDAnimation](https://medium.com/@voidilov/...)  
-- [Designing API Clients with Swift Protocols](https://medium.com/@voidilov/...)
+- [Taming SwiftUI Navigation: A Practical Approach with VDFlow](https://medium.com/@voidilov/taming-swiftui-navigation-a-practical-approach-with-vdflow-2aff69e204eb)  
+- [Create Complex Declarative Animations in SwiftUI with VDAnimation](https://medium.com/@voidilov/create-complex-declarative-animations-in-swiftui-with-vdanimation-0365e9319ecd)  
+- [Meet swift-api-client](https://medium.com/@voidilov/meet-swift-api-client-cb350bc552ca)
 
 ---
 
