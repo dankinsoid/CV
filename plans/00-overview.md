@@ -50,14 +50,18 @@ Build a public site that:
     - Lottie — for UI motion that can be re-exported from After Effects; runs at the viewer's native refresh rate. Can't represent shaders/physics/Metal.
     - APNG / animated WebP — for short looping UI snippets (≤3s).
     - WebGL — preferred over video for shader demos (runs at viewer's refresh rate).
-- [ ] Touch indicators on interactive demos (gesture-driven animations are unreadable without them):
-  - Preferred: software touch-overlay baked into the demo app — a custom `UIWindow` at `windowLevel = .statusBar + 1` rendering `UIEvent.allTouches`, or TouchPosé / a fork. Build once, reuse for every demo.
+- [ ] Input visualization overlay for interactive demos (gesture- and motion-driven animations are unreadable without it):
+  - Preferred: a single overlay `UIWindow` (`windowLevel = .statusBar + 1`) baked into the demo app, combining touch + motion indicators. Build once, reuse for every demo. TouchPosé is touch-only — for motion we need our own.
   - Avoid: filming the device + hand physically (moiré, glare, lower effective resolution); PiP camera of the hand (visually noisy).
-  - Things the overlay should handle:
+  - Touch indicators (from `UIEvent.allTouches`):
     - multi-touch (two dots simultaneously for pinch / rotate);
     - drag — a fading trail to make the trajectory readable;
     - long-press — a growing/ripening indicator so a still finger reads as intentional;
     - velocity throws — make the release moment visually distinct.
+  - Motion indicators (from `CMMotionManager` and `UIResponder.motionBegan`):
+    - tilt — small HUD (bubble level or 2D arrow following the gravity vector) for parallax / orientation-driven shader demos;
+    - shake — brief overlay flash + label when `.motionShake` fires; optionally a magnitude bar from `accelerometerData`;
+    - rotation — circular arrow tracking `attitude` / `rotationRate` for gyro-driven demos.
   - Enable the overlay only in a demo build target, never in shipping code.
 - [ ] How to "de-brand" the animations without violating NDAs / employer rights.
 - [ ] Navigation structure: what does HR see on the first screen vs. what does an engineer see?
