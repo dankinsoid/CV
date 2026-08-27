@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniil Voidilov — Senior iOS Engineer</title>
+<meta name="description" content="Senior iOS engineer and mobile architect in Yerevan. 8+ years building fintech and consumer apps used by millions. Author of VaporToOpenAPI and VimMulticursor.">
+<meta name="author" content="Daniil Voidilov">
+<link rel="canonical" href="https://voidilov.com/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Daniil Voidilov — Senior iOS Engineer">
+<meta property="og:description" content="Mobile architect and senior iOS engineer. Design systems, UI frameworks, API/SDK design, Vapor backends.">
+<meta property="og:url" content="https://voidilov.com/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='system-ui,sans-serif'>DV</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#experience">Skip to experience</a>
+
+<header class="masthead">
+	<h1>Daniil Voidilov</h1>
+	<p class="tagline">Senior iOS Engineer · Mobile Architect · API&nbsp;&amp;&nbsp;Framework Designer</p>
+	<p class="lede">
+		Eight years building fintech and consumer apps used by millions. I work at the layer
+		below the product: design systems, navigation and UI frameworks, developer tooling,
+		and the API and backend surfaces the app talks to.
+	</p>
+	<nav class="contact" aria-label="Contact">
+		<a href="mailto:voidilov@gmail.com">voidilov@gmail.com</a>
+		<a href="https://github.com/dankinsoid">GitHub</a>
+		<a href="https://linkedin.com/in/voidilov">LinkedIn</a>
+		<span class="location">Yerevan, Armenia</span>
+	</nav>
+	<p class="cta"><a class="download" href="/cv.pdf">Download CV (PDF)</a></p>
+</header>
+
+<main>
+
+<section class="highlights" aria-label="Highlights">
+	<ul>
+		<li>
+			<span class="figure">135<span class="unit">★</span></span>
+			<span class="caption">on <a href="https://github.com/dankinsoid/VaporToOpenAPI">VaporToOpenAPI</a>, used by 27+ external projects</span>
+		</li>
+		<li>
+			<span class="figure">28k<span class="unit">+</span></span>
+			<span class="caption">downloads of <a href="https://github.com/dankinsoid/IdeaVimMulticursor">VimMulticursor</a> on the JetBrains Marketplace</span>
+		</li>
+		<li>
+			<span class="figure">68</span>
+			<span class="caption">pull requests merged into external open-source repositories</span>
+		</li>
+	</ul>
+</section>
+
+<section id="experience">
+	<h2>Experience</h2>
+
+	<article class="role">
+		<h3>Senior iOS Developer <span class="at">·</span> <span class="company">Tabby</span></h3>
+		<p class="meta">May 2022 – Aug 2026 · Dubai, remote</p>
+		<p class="context">BNPL fintech used by millions across MENA. <a href="https://apps.apple.com/ge/app/tabby-shop-now-pay-later/id1528022364">App&nbsp;Store</a></p>
+		<ul>
+			<li>Designed the iOS design system from zero — architecture, components, naming — with every component built cross-stack for both UIKit and SwiftUI behind one configuration layer.</li>
+			<li>Automated the Figma → code pipeline for colors, icons and typography, including an internal Figma plugin that emits UIKit and SwiftUI code.</li>
+			<li>Built a new navigation layer that removed most of the UIKit–SwiftUI bridging friction, plus internal frameworks (VDPin, VDLayout, VDChain) that the team adopted for everyday UI work.</li>
+			<li>Owned platform projects end to end — proposal, architecture, rollout, adoption — alongside Kotlin Multiplatform integration, CI pipelines, a runtime UI inspector, and DocC/Docsify documentation.</li>
+		</ul>
+	</article>
+
+	<article class="role">
+		<h3>Senior iOS Developer <span class="at">·</span> <span class="company">Copper.co</span></h3>
+		<p class="meta">Aug 2020 – Jun 2021 · Moscow</p>
+		<p class="context">Crypto banking and secure multi-wallet management.</p>
+		<ul>
+			<li>Built the entire iOS application from scratch: architecture, navigation, wallet infrastructure.</li>
+			<li>Delivered the crypto-finance modules and their data handling pipelines.</li>
+			<li>Built the interactive SceneKit animations used throughout onboarding.</li>
+		</ul>
+	</article>
+
+	<article class="role">
+		<h3>Senior iOS Developer <span class="at">·</span> <span class="company">Crypterium</span></h3>
+		<p class="meta">Aug 2019 – Aug 2020 · Moscow</p>
+		<ul>
+			<li>Implemented finance-related UI and integrated crypto exchange APIs.</li>
+			<li>Drove performance optimisation work and improved overall app reliability.</li>
+		</ul>
+	</article>
+
+	<article class="role">
+		<h3>Middle iOS Developer <span class="at">·</span> <span class="company">Pochtabank</span></h3>
+		<p class="meta">Sep 2018 – Aug 2019 · Moscow</p>
+		<ul>
+			<li>Migrated a legacy codebase to MVVM across 70% of production modules, and rewrote the transaction history module outright for performance.</li>
+		</ul>
+	</article>
+
+	<article class="role">
+		<h3>Junior iOS Developer <span class="at">·</span> <span class="company">RosEuroBank</span></h3>
+		<p class="meta">Mar 2018 – Sep 2018 · Moscow</p>
+		<ul>
+			<li>Maintained the legacy banking app and implemented biometric authentication.</li>
+		</ul>
+	</article>
+</section>
+
+<section id="products">
+	<h2>Own products</h2>
+
+	<article class="role">
+		<h3><a href="https://apps.apple.com/app/transfer-music/id1471038000">Transfer&nbsp;Music</a></h3>
+		<p class="meta">iOS app + Vapor backend</p>
+		<p class="context">Transfers playlists and libraries between Apple Music, Spotify, Yandex and others.</p>
+		<ul>
+			<li>Full architecture of both client and backend — Vapor, Redis caching, metrics and logging infrastructure.</li>
+			<li>WebSocket engine with dynamic batch subscriptions, paging and throttling for real-time transfer progress.</li>
+			<li>Support chat on Firestore with notifications, AI auto-response and escalation to me.</li>
+			<li>Debug menu covering remote config, logs, keychain, UserDefaults and a Firebase inspector.</li>
+		</ul>
+	</article>
+
+	<ul class="apps">
+		<li><a href="https://apps.apple.com/app/challenge-tracker/id1512730729">Challenge&nbsp;Tracker</a> — habit and goal tracking</li>
+		<li><a href="https://apps.apple.com/app/made-fire/id1496499808">Made&nbsp;Fire</a> — ambience and focus</li>
+		<li><a href="https://apps.apple.com/app/unicount-scientific-calculator/id1034143766">UniCount</a> — scientific calculator on a custom expression engine</li>
+	</ul>
+</section>
+
+<section id="open-source">
+	<h2>Open source</h2>
+	<dl class="projects">
+		<dt><a href="https://github.com/dankinsoid/VaporToOpenAPI">VaporToOpenAPI</a></dt>
+		<dd>Generates OpenAPI specs straight from Vapor routes. 135★, used by 27+ projects.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/IdeaVimMulticursor">VimMulticursor</a></dt>
+		<dd>Multi-cursor editing for IdeaVim. 28k+ downloads on the JetBrains Marketplace.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/flutter-cljd">flutter-cljd</a></dt>
+		<dd>Most of the Flutter API wrapped into ClojureDart — an idiomatic Clojure layer over widgets, custom render objects and a layout solver.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/swift-uiinspector">swift-uiinspector</a></dt>
+		<dd>Runtime UI inspector for iOS that also works inside Xcode Previews.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/swift-api-client">swift-api-client</a></dt>
+		<dd>Composable API client for Swift, async/await and Combine.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/VDPin">VDPin</a></dt>
+		<dd>Constraint builder used in production at Tabby; a safer, smaller SnapKit alternative.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/VDLayout">VDLayout</a></dt>
+		<dd>Declarative layout DSL for UIKit.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/VDAnimation">VDAnimation</a></dt>
+		<dd>Declarative animation DSL.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/UIKitViews">UIKitViews</a></dt>
+		<dd>Universal <code>UIViewRepresentable</code> wrappers for SwiftUI.</dd>
+	</dl>
+</section>
+
+<section id="writing">
+	<h2>Writing</h2>
+	<ul class="plain">
+		<li><a href="https://medium.com/@voidilov/taming-swiftui-navigation-a-practical-approach-with-vdflow-2aff69e204eb">Taming SwiftUI Navigation: A Practical Approach with VDFlow</a></li>
+		<li><a href="https://medium.com/@voidilov/create-complex-declarative-animations-in-swiftui-with-vdanimation-0365e9319ecd">Create Complex Declarative Animations in SwiftUI with VDAnimation</a></li>
+		<li><a href="https://medium.com/@voidilov/meet-swift-api-client-cb350bc552ca">Meet swift-api-client</a></li>
+	</ul>
+</section>
+
+<section id="details">
+	<h2>Details</h2>
+	<dl class="facts">
+		<dt>Core</dt>
+		<dd>Swift, SwiftUI, UIKit, Swift Concurrency, Combine, architecture and design systems, UI frameworks and DSLs, API design.</dd>
+
+		<dt>Backend</dt>
+		<dd>Vapor, Redis, WebSockets, CI/CD (GitLab CI, Fastlane), DataDog, Grafana, InfluxDB.</dd>
+
+		<dt>Also</dt>
+		<dd>Kotlin Multiplatform, Firebase/Firestore, Keychain, deep links, StoreKit and App Store Connect.</dd>
+
+		<dt>Languages</dt>
+		<dd>Objective-C, Kotlin, TypeScript in production; Clojure/ClojureDart and Dart in side projects.</dd>
+
+		<dt>Education</dt>
+		<dd>Bauman Moscow State Technical University — BEng &amp; MEng, Control Systems Engineering, 2013–2019.</dd>
+
+		<dt>Spoken</dt>
+		<dd>Russian — native. English — B2.</dd>
+	</dl>
+</section>
+
+</main>
+
+<footer>
+	<p>
+		<a href="mailto:voidilov@gmail.com">voidilov@gmail.com</a> ·
+		<a href="/cv.pdf">CV as PDF</a>
+	</p>
+</footer>
+
+</body>
+</html>
