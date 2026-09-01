@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daniil Voidilov — Senior iOS Engineer</title>
-<meta name="description" content="Senior iOS engineer and mobile architect in Yerevan. 8+ years building fintech and consumer apps used by millions. Author of VaporToOpenAPI and VimMulticursor.">
+<meta name="description" content="Senior iOS engineer and mobile architect in Yerevan. 8+ years building fintech and consumer apps used by millions. Author of VaporToOpenAPI, VimMulticursor, and AI agent tooling.">
 <meta name="author" content="Daniil Voidilov">
 <link rel="canonical" href="https://daniil.voidilov.com/cv/">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Daniil Voidilov — Senior iOS Engineer">
-<meta property="og:description" content="Mobile architect and senior iOS engineer. Design systems, UI frameworks, API/SDK design, Vapor backends.">
+<meta property="og:description" content="Mobile architect and senior iOS engineer. Design systems, UI frameworks, API/SDK design, AI agent tooling, Vapor backends.">
 <meta property="og:url" content="https://daniil.voidilov.com/cv/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='system-ui,sans-serif'>DV</text></svg>">
 <link rel="stylesheet" href="style.css">
@@ -24,7 +24,8 @@
 	<p class="lede">
 		Eight years building fintech and consumer apps used by millions. I work at the layer
 		below the product: design systems, navigation and UI frameworks, developer tooling,
-		and the API and backend surfaces the app talks to.
+		and the API and backend surfaces the app talks to. Lately that layer includes AI:
+		MCP servers, agent skills, and long-term memory for coding agents.
 	</p>
 	<nav class="contact" aria-label="Contact">
 		<a href="mailto:voidilov@gmail.com">voidilov@gmail.com</a>
@@ -62,10 +63,12 @@
 		<p class="meta">May 2022 – Present · Dubai, remote</p>
 		<p class="context">BNPL fintech used by millions across MENA. <a href="https://apps.apple.com/ge/app/tabby-shop-now-pay-later/id1528022364">App&nbsp;Store</a></p>
 		<ul>
-			<li>Designed the iOS design system from zero — architecture, components, naming — with every component built cross-stack for both UIKit and SwiftUI behind one configuration layer.</li>
-			<li>Automated the Figma → code pipeline for colors, icons and typography, including an internal Figma plugin that emits UIKit and SwiftUI code.</li>
+			<li>One of five engineers on the core platform team owning shared infrastructure of a 130+-module codebase built by 30+ iOS engineers across 20 feature teams; drove platform projects from proposal to rollout and adoption.</li>
+			<li>Designed the iOS design system from zero: 90+ reusable components adopted in 140+ modules, each built cross-stack for both UIKit and SwiftUI behind one configuration layer.</li>
+			<li>Automated the Figma → code pipeline — an internal Figma plugin emitting UIKit and SwiftUI code keeps 330+ icons, 60+ color styles and typography in sync, eliminating manual handoff and design drift.</li>
 			<li>Built a new navigation layer that removed most of the UIKit–SwiftUI bridging friction, plus internal frameworks (VDPin, VDLayout, VDChain) that the team adopted for everyday UI work.</li>
-			<li>Owned platform projects end to end — proposal, architecture, rollout, adoption — alongside Kotlin Multiplatform integration, CI pipelines, a runtime UI inspector, and DocC/Docsify documentation.</li>
+			<li>Built a suite of eight agent skills automating the team's dev workflow — Jira issues, MR creation, review triage, release cherry-picks, CI snapshot updates — integrated into everyday team process.</li>
+			<li>Integrated Kotlin Multiplatform for shared business logic, set up CI pipelines, built a runtime UI inspector, and published internal DocC/Docsify documentation.</li>
 		</ul>
 	</article>
 
@@ -84,8 +87,7 @@
 		<h3>Senior iOS Developer <span class="at">·</span> <span class="company">Crypterium</span></h3>
 		<p class="meta">Aug 2019 – Aug 2020 · Moscow</p>
 		<ul>
-			<li>Implemented finance-related UI and integrated crypto exchange APIs.</li>
-			<li>Drove performance optimisation work and improved overall app reliability.</li>
+			<li>Integrated crypto exchange APIs and shipped finance-related UI; improved performance and reliability across key user flows.</li>
 		</ul>
 	</article>
 
@@ -93,7 +95,7 @@
 		<h3>Middle iOS Developer <span class="at">·</span> <span class="company">Pochtabank</span></h3>
 		<p class="meta">Sep 2018 – Aug 2019 · Moscow</p>
 		<ul>
-			<li>Introduced architecture into a legacy codebase that had none: drove a months-long migration to MVVM + RxSwift covering nearly the entire app; rewrote the transaction history module outright.</li>
+			<li>Introduced architecture into a legacy codebase that had none: drove a months-long migration to MVVM + RxSwift, leaving nearly the entire app on a single testable architecture; rewrote the transaction history module outright.</li>
 		</ul>
 	</article>
 
@@ -101,7 +103,7 @@
 		<h3>Junior iOS Developer <span class="at">·</span> <span class="company">RosEuroBank</span></h3>
 		<p class="meta">Mar 2018 – Sep 2018 · Moscow</p>
 		<ul>
-			<li>Maintained the legacy banking app and implemented biometric authentication.</li>
+			<li>Shipped biometric authentication in the legacy banking app; maintained and stabilized the codebase.</li>
 		</ul>
 	</article>
 </section>
@@ -132,6 +134,12 @@
 	<h2>Open source</h2>
 	<p class="context">Author and maintainer of 20+ libraries; 68 pull requests merged into external open-source projects.</p>
 	<dl class="projects">
+		<dt><a href="https://github.com/dankinsoid/ai-memory">ai-memory</a></dt>
+		<dd>Long-term memory for coding agents (Claude Code, Codex CLI) — RAG with hybrid tag + vector retrieval (Qdrant), session chaining.</dd>
+
+		<dt><a href="https://github.com/dankinsoid/claude-talk-to-figma-mcp">claude-talk-to-figma-mcp</a></dt>
+		<dd>MCP server connecting AI agents to Figma — 40 tools, near-full plugin API coverage including FigJam; token engineering makes screen reads ≈10× cheaper.</dd>
+
 		<dt><a href="https://github.com/dankinsoid/VaporToOpenAPI">VaporToOpenAPI</a></dt>
 		<dd>Generates OpenAPI specs straight from Vapor routes. 135★, used by 27+ projects.</dd>
 
@@ -158,9 +166,6 @@
 
 		<dt><a href="https://github.com/dankinsoid/UIKitViews">UIKitViews</a></dt>
 		<dd>Universal <code>UIViewRepresentable</code> wrappers for SwiftUI.</dd>
-
-		<dt><a href="https://github.com/dankinsoid/claude-talk-to-figma-mcp">claude-talk-to-figma-mcp</a></dt>
-		<dd>MCP server connecting AI agents to Figma — near-full plugin API coverage including FigJam, with an agent-friendly grep/find tool surface.</dd>
 	</dl>
 </section>
 
@@ -182,6 +187,9 @@
 		<dt>Backend</dt>
 		<dd>Vapor, Redis, WebSockets, CI/CD (GitLab CI, Fastlane), DataDog, Grafana, InfluxDB.</dd>
 
+		<dt>AI tooling</dt>
+		<dd>MCP server design, agent skills and hooks, RAG and vector search (Qdrant, embeddings), context/token engineering, multi-agent orchestration, Anthropic and OpenAI APIs.</dd>
+
 		<dt>Also</dt>
 		<dd>Kotlin Multiplatform, Firebase/Firestore, Keychain and Secure Enclave, biometric auth, deep links, StoreKit and App Store Connect.</dd>
 
@@ -192,7 +200,7 @@
 		<dd>Bauman Moscow State Technical University — BEng &amp; MEng, Control Systems Engineering, 2013–2019.</dd>
 
 		<dt>Spoken</dt>
-		<dd>Russian — native. English — B2.</dd>
+		<dd>Russian — native. English — professional working proficiency, daily working language.</dd>
 	</dl>
 </section>
 
